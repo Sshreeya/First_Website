@@ -21,7 +21,12 @@ span {
     border: 4px dashed rgb(41, 7, 233);
     border-radius: 25px;
     margin: 20px;
-    padding: 20px;
+    padding: 20px; 
+  } 
+  .bikesh{ 
+     text-decoration: dotted;
+     color: #da0994;
+
   }
 
 

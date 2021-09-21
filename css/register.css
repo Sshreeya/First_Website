@@ -1,24 +1,119 @@
-input, select, label{
-    margin: 15px;
+input, select{
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 300;
 }
 h1{
     text-align:center;
-    color: #0084FF;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #f4f6f8;
+    font: 30px "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 20px; 
+    padding-top: 30px;
+    cursor:default;
 }
 
 form{
-    background-color: #d0d4d0;
+    background-color: rgb(255, 255, 255);
     text-align: left;
-    border: 1px solid rgba(46, 46, 46, 0.933);
-    border-radius: 25px;
-    margin-left: 700px; 
-    margin-right: 700px; 
-    opacity:1.2s;
-    
+    border: 5px double rgba(46, 46, 46, 0.933);
+    border-radius: 15px;
+    padding: 20px;
+    margin:30px 500px 0px 500px;
    
 }
+
+.bg-img{
+                background-attachment: scroll;
+                background-image: url('img/background.jfif');
+                min-height: 380px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+}
+
 p{
     color: #f5204b;
-    margin: 15px;
+    margin: 10px;
+    font-style: oblique;
+}
+
+button{
+    background-image:linear-gradient(to bottom right,rgb(4, 0, 255) , rgb(110, 7, 114));
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-image:linear-gradient(to bottom right,rgb(110, 7, 114) , rgb(4, 0, 255));
+}
+
+.amazoncss{
+    background-image: linear-gradient(to bottom right, rgb(209, 148, 196) , rgb(161, 110, 163));
+    height: 100px;
+    background-size: cover;
+}
+
+.topamazoncss{
+    background-image: linear-gradient(to bottom right, rgb(209, 148, 196) , rgb(161, 110, 163));
+    height: 50px;
+    background-size: cover;
+}
+.topamazoncss h2{
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 17px;
+}
+.nav {
+    background-color: white; 
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0; 
+  }
+  
+  .nav li { 
+    display: inline-block;
+    font-size: 10px;
+    padding: 15px;
+    margin-right:10px;
+  }
+
+  .nav li a {
+    text-decoration: none;
+    color:rgb(37, 36, 36);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: monospace;
+}
+.nav li a:hover, i:hover {
+ color:rgb(235, 170, 180); 
+ cursor: pointer;
+} 
+
+.nav li i{
+    font-size: medium;
+    padding-right: 1px; 
+
+
+}.nav li img{
+    font-size: medium;
+    height: 60px;
+    width: auto;
+    margin-right: 690px;
 }

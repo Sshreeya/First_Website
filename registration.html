@@ -2,33 +2,56 @@
   <head>
     <title>Registration</title>
     <link rel="stylesheet" href="css/register.css" />
+    <style>
+      /* internal csss chai head ma use hunxa ani yo aauta particular file ko lagi matra kaam garxa. 
+      tyo bahdna badi chai aru file ma gardeina. basically it isolates within it */
+    </style>
   </head>
-  <body>
-    <h1><b>facebook</b> </h1>
+  <!-- <body style="background-attachment:fixed;
+                background-image: url('img/background.jfif');
+                backgound-repeat:no-repeat;
+            "> -->
+  <body style="background: url('img/background.jfif') no-repeat fixed ">
     <form>
-     <!--<label for="FirstName">First Name:</label><br />-->
-      <input type="text" id="fname" placeholder="First Name" class="fname" /> 
+      <h1><b>facebook</b></h1>
+      <!--<label for="FirstName">First Name:</label><br />-->
+      <input type="text" id="fname" placeholder="First Name" class="fname" />
       <!--<label for="LastName">Last Name:</label><br />-->
-      <input type="text" id="Lname" placeholder="Last Name" class="Lname" /><br />
+      <input
+        type="text"
+        id="Lname"
+        placeholder="Last Name"
+        class="Lname"
+      /><br />
       <!--<label for="cellnumber">Cell Number:</label><br />-->
-      <input type="number" id="phonenumber" placeholder="Mobile Number or Email" class="num" /><br />
+      <input
+        type="number"
+        id="phonenumber"
+        placeholder="Mobile Number or Email"
+        class="num"
+      /><br />
       <!--<label for="Password">Password:</label><br />-->
-      <input type="password" id="password" placeholder="New Password" class="password" /><br />
-     <label for="DOB">Birthday</label><br/>
+      <input
+        type="password"
+        id="password"
+        placeholder="New Password"
+        class="password"
+      /><br />
+      <label for="DOB"><strong>Birthday: </strong></label><br />
       <!--<input type="date" id="dob" class="dob" /> <br />-->
       <select name="month" id="month">
         <option>Month</option>
         <option value="Jan">Jan</option>
         <option value="Feb">Feb</option>
         <option value="March">March</option>
-        <option value="April">April</option> 
+        <option value="April">April</option>
       </select>
       <select name="day" id="day">
         <option>Day</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
-        <option value="4">4</option> 
+        <option value="4">4</option>
       </select>
       <select name="year" id="year">
         <option>Year</option>
@@ -113,9 +136,10 @@
         <option value="2018">2018</option>
         <option value="2019">2019</option>
         <option value="2020">2020</option>
-        <option value="2021">2021</option>
-    </select><br/>
-      <label for="Gender"> Gender:</label><br />
+        <option value="2021">2021</option></select
+      ><br />
+      <label for="Gender"><strong> Gender:</strong></label
+      ><br />
       <input type="radio" name="gender" value="male" /> Male
       <input type="radio" name="gender" value="female" /> Female
       <input type="radio" name="gender" value="Custom" /> Custom
@@ -125,7 +149,7 @@
         time.
       </p>
 
-      <button><a href="index.html">Signup</a></button>
+      <button>Signup</button>
     </form>
   </body>
 </html>
